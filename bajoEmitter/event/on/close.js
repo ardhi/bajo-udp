@@ -1,5 +1,5 @@
 const onClose = {
-  handler: function bajoUdpServerOnClose (conn) {
+  handler: function bajoUdpOnClose (conn) {
     const { log } = this.bajo.helper
     log.debug('\'%s\' is closed', conn.name)
   },

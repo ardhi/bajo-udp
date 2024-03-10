@@ -1,5 +1,5 @@
 const onError = {
-  handler: function bajoUdpServerOnError (conn, error) {
+  handler: function bajoUdpOnError (conn, error) {
     const { log } = this.bajo.helper
     log.debug('\'%s\' error: %s', conn.name, error.message)
   },

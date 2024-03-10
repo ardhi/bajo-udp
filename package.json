@@ -1,5 +1,5 @@
 {
-  "name": "bajo-udp-server",
+  "name": "bajo-udp",
   "version": "0.2.0",
   "description": "Generic UDP Server for Bajo Framework",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ardhi/bajo-udp-server.git"
+    "url": "git+https://github.com/ardhi/bajo-udp.git"
   },
   "keywords": [
     "bajo",
@@ -21,9 +21,9 @@
   "author": "Ardhi Lukianto <ardhi@lukianto.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ardhi/bajo-udp-server/issues"
+    "url": "https://github.com/ardhi/bajo-udp/issues"
   },
-  "homepage": "https://github.com/ardhi/bajo-udp-server#readme",
+  "homepage": "https://github.com/ardhi/bajo-udp#readme",
   "dependencies": {
   }
 }
