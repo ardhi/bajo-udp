@@ -1,0 +1,5 @@
+{
+  "alias": "udp-server",
+  "connections": [],
+  "dependencies": ["bajo-emitter"]
+}
