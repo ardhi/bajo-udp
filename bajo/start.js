@@ -7,7 +7,7 @@ async function start () {
   const config = getConfig('bajoUdp')
   const instances = []
   for (const c of config.connections ?? []) {
-    const socket = dgram.createSocket('udp4')
+    const socket = dgram.createSocket('udp4', { reuseAddr: c.reuseAddr ?? false })
     for (const evt of events) {
       socket.on(evt, async (...args) => {
         emit(`bajoUdp.${evt}`, c, ...args)
