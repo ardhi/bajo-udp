@@ -10,7 +10,7 @@ async function start () {
         emit(`bajoUdp.${evt}`, c, ...args)
       })
     }
-    if (c.server) socket.bind(c.port, c.address)
+    if (c.server) socket.bind(c.port, c.host)
     c.instance = socket
   }
 }

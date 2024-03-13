@@ -2,7 +2,7 @@ async function connHandler ({ item, options }) {
   const { importPkg, error } = this.bajo.helper
   const { has } = await importPkg('lodash-es')
   if (!has(item, 'port')) throw error('Connection must have a port')
-  item.address = item.address ?? '0.0.0.0'
+  item.host = item.host ?? '0.0.0.0'
   item.server = item.server ?? false
 }
 

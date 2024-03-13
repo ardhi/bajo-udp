@@ -6,7 +6,7 @@ async function send ({ msg, to } = {}) {
   if (transport !== 'bajoUdp') return
   const c = find(this.bajoUdp.connections, { name: connection })
   if (!c) throw error('No such connection \'%s\'', connection)
-  c.instance.send(msg, c.port, c.address)
+  c.instance.send(msg, c.port, c.host)
 }
 
 export default send
