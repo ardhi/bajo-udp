@@ -1,6 +1,6 @@
 async function send ({ msg, to } = {}) {
-  const { importPkg, error } = this.bajo.helper
-  const { find } = await importPkg('lodash-es')
+  const { error } = this.bajo.helper
+  const { find } = this.bajo.helper._
   const { addressSplit } = this.bajoEmitter.helper
   const { connection, transport } = addressSplit(to)
   if (transport !== 'bajoUdp') return

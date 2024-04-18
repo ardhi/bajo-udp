@@ -1,6 +1,6 @@
 {
   "name": "bajo-udp",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Generic UDP Server for Bajo Framework",
   "main": "index.js",
   "scripts": {
