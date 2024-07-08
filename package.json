@@ -1,7 +1,7 @@
 {
   "name": "bajo-udp",
-  "version": "0.3.0",
-  "description": "Generic UDP Server for Bajo Framework",
+  "version": "1.0.0",
+  "description": "UDP Binding for Bajo Framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
