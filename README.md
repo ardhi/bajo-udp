@@ -1,6 +1,7 @@
 # bajo-udp
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/bajo-udp)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/bajo-udp) ![NPM Version](https://img.shields.io/npm/v/bajo-udp)
+
 
 UDP binding for [Bajo Framework](https://github.com/ardhi/bajo). Require [Bajo Emitter](https://github.com/ardhi/bajo-emitter) to work correctly.
 
