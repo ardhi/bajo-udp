@@ -7,23 +7,20 @@ UDP binding for [Bajo Framework](https://github.com/ardhi/bajo). Require [Bajo E
 
 ## Installation
 
-Goto your ```<bajo-app-dir>``` and type:
+Goto your ```<bajo-base-dir>``` and type:
 
 ```bash
 $ npm install bajo-udp
 ```
 
-After that, you just need to open ```<bajo-data-dir>/config/bajo.json``` and insert ```bajo-udp``` inside your ```plugins```. Plugins order doesn't matter here, but you should put it behind ```bajo-emitter```:
+Now open your ```<bajo-data-dir>/config/.plugins``` and put ```bajo-udp``` in it
+. Order doesn't matter here, but you should put it below ```bajo-emitter```:
 
-```json
-{
-  ...
-  "log": {
-    "level": "trace"
-  },
-  "plugins": [..., "bajo-emitter", "bajo-udp", ...],
-  ...
-}
+```
+...
+bajo-emitter
+bajo-udp
+...
 ```
 
 ## Configuration
