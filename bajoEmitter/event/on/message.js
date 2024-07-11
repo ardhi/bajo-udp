@@ -1,7 +1,7 @@
 const onMessage = {
   handler: async function bajoUdpOnMessage (...args) {
     // for broadcast only
-    const { broadcast } = this.app.bajoEmitter.helper
+    const { broadcast } = this.app.bajoEmitter
     const [conn, msg] = args
     if (!conn.broadcast) return
     broadcast({ from: `${conn.name}@bajoUdp`, msg })
