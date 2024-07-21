@@ -6,7 +6,7 @@ Plugin name: **bajoUdp**, alias: **udp**
 
 > <br />**Attention**: I do NOT accept any pull request at the moment, thanks!<br /><br />
 
-UDP binding for [Bajo Framework](https://github.com/ardhi/bajo). Require [Bajo Emitter](https://github.com/ardhi/bajo-emitter) to work correctly.
+UDP binding for [Bajo](https://github.com/ardhi/bajo). If [Bajo Emitter](https://github.com/ardhi/bajo-emitter) is loaded, events & messages are also handled through Bajo Emitter processing system.
 
 ## Installation
 
@@ -49,6 +49,13 @@ Example:
   }]
 }
 ```
+
+## Hook
+
+- ```bajoUdp:onClose (conn)```
+- ```bajoUdp:onError (conn, error)```
+- ```bajoUdp:onListening (conn)```
+- ```bajoUdp:onMessage (conn, message)```
 
 ## License
 
