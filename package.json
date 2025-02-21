@@ -1,6 +1,6 @@
 {
   "name": "bajo-udp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UDP Binding for Bajo Framework",
   "main": "index.js",
   "scripts": {
