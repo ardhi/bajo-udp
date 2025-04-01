@@ -1,5 +1,5 @@
 async function handler ({ item, options }) {
-  const { has } = this.app.bajo.lib._
+  const { has } = this.lib._
   if (!has(item, 'port')) throw this.error('connMustHave%s', 'port')
   item.host = item.host ?? '0.0.0.0'
   item.server = item.server ?? false

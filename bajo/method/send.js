@@ -1,5 +1,5 @@
 async function send ({ msg, to } = {}) {
-  const { find } = this.app.bajo.lib._
+  const { find } = this.lib._
   const { addressSplit } = this.app.bajoEmitter
   const { connection, plugin } = addressSplit(to)
   if (plugin !== 'bajoUdp') return
